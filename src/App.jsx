@@ -1,7 +1,17 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import appStore from "./utils/appStore";
+import { Provider } from "react-redux";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <Provider store={appStore}>
+      <Navbar/>
+      <Outlet/>
+      <Footer/>
+      </Provider>
     </>
   );
 }
