@@ -82,7 +82,7 @@ const MemeUpload = () => {
   };
 
   return (
-    <div className="p-6 flex flex-col items-center">
+    <div className="p-6 flex flex-col items-center bg-white dark:bg-black h-screen">
       <h2 className="text-2xl font-bold">Upload or Generate a Meme</h2>
 
       <div className="mt-4 w-full max-w-md bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState, useCallback } from "react";
 import axios from "axios";
@@ -76,7 +77,7 @@ const Explore = () => {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 bg-white dark:bg-black">
       <h2 className="text-2xl font-bold text-center">🎭 Explore Memes</h2>
 
       {/* Search Bar */}
@@ -113,10 +114,10 @@ const Explore = () => {
       </button>
 
       {/* Meme Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
         {filteredMemes.map((meme) => (
           <div key={meme.id} className="rounded-lg shadow-md overflow-hidden">
-            <img src={meme.url} alt={meme.name} className="w-full h-48 object-cover" />
+            <img src={meme.url} alt={meme.name} className="w-full h-48" />
             <p className="text-center font-semibold p-2">{meme.name}</p>
           </div>
         ))}

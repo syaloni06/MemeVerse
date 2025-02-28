@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import DarkModeToggle from "../utils/DarkModeToggle";
-import { TbSquareLetterMFilled } from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -9,8 +8,7 @@ const Navbar = () => {
         {/* Logo */}
         <NavLink to="/" className="flex items-center font-bold text-2xl italic">
           <div className="bg-gradient-to-r flex from-sky-500 to-blue-800 text-transparent bg-clip-text cursor-pointer">
-            <TbSquareLetterMFilled className="text-sky-500 self-center" />
-            emeVerse
+            MemeVerse
           </div>
         </NavLink>
 

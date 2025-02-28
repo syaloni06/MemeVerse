@@ -63,7 +63,7 @@ const MemeDetails = () => {
   if (!meme) return <p className="text-center">Loading meme...</p>;
 
   return (
-    <div className="p-6 flex flex-col items-center">
+    <div className="p-6 flex flex-col items-center bg-white dark:bg-black h-screen">
       <h2 className="text-2xl font-bold">{meme.name}</h2>
       <img src={meme.url} alt={meme.name} className="mt-4 rounded-lg shadow-lg w-96" />
 

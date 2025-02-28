@@ -46,7 +46,7 @@ const LeaderBoard = () => {
   }, []);
 
   return (
-    <div className="p-6">
+    <div className="p-6 bg-white dark:bg-black h-screen">
       <h2 className="text-3xl font-bold text-center mb-6">🏆 Leaderboard</h2>
 
       {/* Top 10 Most Liked Memes */}

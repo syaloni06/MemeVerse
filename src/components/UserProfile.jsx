@@ -50,7 +50,7 @@ const UserProfile = () => {
       <h2 className="text-2xl font-bold">User Profile</h2>
 
       {/* Profile Section */}
-      <div className="mt-4 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg w-full max-w-md">
+      <div className="mt-4 bg-white dark:bg-black p-4 h-screen rounded-lg shadow-lg w-full max-w-md">
         <div className="flex flex-col items-center">
           {/* Profile Picture */}
           <label className="cursor-pointer">
